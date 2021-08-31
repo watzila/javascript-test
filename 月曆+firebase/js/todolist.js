@@ -15,7 +15,7 @@ var calendar = new Calendar({
  * 讀取備忘錄
  */
 function todolist() {
-  var { y, m, dateBTNs } = this;
+  var { y, m, dateBTNs } = calendar;
   var todolistData = null;
   var currentDate = null;
   var index = 1;
